@@ -17,8 +17,8 @@ example/ （运行后）
 │   ├── images/  
 │   └── labels/  
 └── test/ 
-      ├── images/ 
-      └── labels/
+    ├── images/ 
+    └── labels/
 ```
 
 ## 数据集划分
