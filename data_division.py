@@ -2,9 +2,10 @@ import os
 import random
 import shutil
 
+
 dataset_dir = 'example'  # 数据集images与labels文件夹所在目录
-training_set_ratio = 0.8  # 训练集比例
-validation_set_ratio = 0.1  # 测试集比例
+training_set_ratio = 0.8  # 训练集比例（0-1）
+validation_set_ratio = 0.1  # 测试集比例（0-1）
 seed = 0  # 划分随机数
 
 if __name__ == '__main__':
